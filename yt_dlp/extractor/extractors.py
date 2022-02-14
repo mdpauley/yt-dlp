@@ -142,6 +142,7 @@ from .bfmtv import (
 )
 from .bibeltv import BibelTVIE
 from .bigflix import BigflixIE
+from .bigo import BigoIE
 from .bild import BildIE
 from .bilibili import (
     BiliBiliIE,
@@ -1373,7 +1374,10 @@ from .megatvcom import (
 )
 from .rutv import RUTVIE
 from .ruutu import RuutuIE
-from .ruv import RuvIE
+from .ruv import (
+    RuvIE,
+    RuvSpilaIE
+)
 from .safari import (
     SafariIE,
     SafariApiIE,
@@ -1612,6 +1616,7 @@ from .tiktok import (
     TikTokSoundIE,
     TikTokEffectIE,
     TikTokTagIE,
+    TikTokVMIE,
     DouyinIE,
 )
 from .tinypic import TinyPicIE
